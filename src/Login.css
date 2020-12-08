@@ -1,0 +1,28 @@
+.login{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login__container{
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    background-color: var(--twitter-background);
+}
+
+.login__container > button{
+    margin-top: 25px;
+    text-transform: inherit !important;
+    background-color: var(--twitter-color) !important;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login__twitterIcon{
+    color: var(--twitter-color);
+    font-size: 150px !important;
+}
